@@ -55,4 +55,4 @@ Cambiar los parametros por los necesarios.
 
 ## Mas info? Consultas?:
 
-drupar.slack.com
+[CANAL DRUPAR SLACK](https://drupar.slack.com/)
