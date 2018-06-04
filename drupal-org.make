@@ -229,57 +229,57 @@ projects[libraries][version] = 2.2
 
 projects[poncho][type] = theme
 projects[poncho][download][type] = git
-projects[poncho][download][url] = "git@git.argentina.gob.ar:drupar/Poncho.git"
-projects[poncho][download][branch] = 7.drupar
-projects[poncho][subdir] = contrib
+projects[poncho][download][url] = "git@github.com:argob/drupar_poncho.git"
+projects[poncho][download][branch] = master
+projects[poncho][subdir] = drupar
 
 projects[drupar_inicio][type] = module
 projects[drupar_inicio][download][type] = git
-projects[drupar_inicio][download][url] = "git@git.argentina.gob.ar:drupar/drupar_inicio.git"
-projects[drupar_inicio][download][branch] = 7.x
-projects[drupar_inicio][subdir] = contrib
+projects[drupar_inicio][download][url] = "git@github.com:argob/drupar_inicio.git"
+projects[drupar_inicio][download][branch] = master
+projects[drupar_inicio][subdir] = drupar
 
 projects[drupar_usuarios][type] = module
 projects[drupar_usuarios][download][type] = git
-projects[drupar_usuarios][download][url] = "git@git.argentina.gob.ar:drupar/drupar_usuarios.git"
-projects[drupar_usuarios][download][branch] = 7.x
-projects[drupar_usuarios][subdir] = contrib
+projects[drupar_usuarios][download][url] = "git@github.com:argob/drupar_usuarios.git"
+projects[drupar_usuarios][download][branch] = master
+projects[drupar_usuarios][subdir] = drupar
 
 projects[drupar_componentes][type] = module
 projects[drupar_componentes][download][type] = git
-projects[drupar_componentes][download][url] = "git@git.argentina.gob.ar:drupar/Componentes.git"
-projects[drupar_componentes][download][branch] = 7.drupar
-projects[drupar_componentes][subdir] = contrib
+projects[drupar_componentes][download][url] = "git@github.com:argob/drupar_componentes.git"
+projects[drupar_componentes][download][branch] = master
+projects[drupar_componentes][subdir] = drupar
 
 projects[drupar_cck][type] = module
 projects[drupar_cck][download][type] = git
-projects[drupar_cck][download][url] = "git@git.argentina.gob.ar:drupar/drupar_cck.git"
-projects[drupar_cck][download][branch] = 7.x
-projects[drupar_cck][subdir] = contrib
+projects[drupar_cck][download][url] = "git@github.com:argob/drupar_cck.git"
+projects[drupar_cck][download][branch] = master
+projects[drupar_cck][subdir] = drupar
 
 projects[drupar_noticias][type] = module
 projects[drupar_noticias][download][type] = git
-projects[drupar_noticias][download][url] = "git@git.argentina.gob.ar:drupar/drupar_noticias.git"
-projects[drupar_noticias][download][branch] = 7.x
-projects[drupar_noticias][subdir] = contrib
+projects[drupar_noticias][download][url] = "git@github.com:argob/drupar_noticias.git"
+projects[drupar_noticias][download][branch] = master
+projects[drupar_noticias][subdir] = drupar
 
 projects[drupar_areas][type] = module
 projects[drupar_areas][download][type] = git
-projects[drupar_areas][download][url] = "git@git.argentina.gob.ar:drupar/drupar_areas.git"
-projects[drupar_areas][download][branch] = 7.x
-projects[drupar_areas][subdir] = contrib
+projects[drupar_areas][download][url] = "git@github.com:argob/drupar_areas.git"
+projects[drupar_areas][download][branch] = master
+projects[drupar_areas][subdir] = drupar
 
 projects[drupar_vistas][type] = module
 projects[drupar_vistas][download][type] = git
-projects[drupar_vistas][download][url] = "git@git.argentina.gob.ar:drupar/drupar_vistas.git"
-projects[drupar_vistas][download][branch] = 7.x
-projects[drupar_vistas][subdir] = contrib
+projects[drupar_vistas][download][url] = "git@github.com:argob/drupar_vistas.git"
+projects[drupar_vistas][download][branch] = master
+projects[drupar_vistas][subdir] = drupar
 
 projects[drupar_multimedia][type] = module
 projects[drupar_multimedia][download][type] = git
-projects[drupar_multimedia][download][url] = "git@git.argentina.gob.ar:drupar/drupar_multimedia.git"
-projects[drupar_multimedia][download][branch] = 7.x
-projects[drupar_multimedia][subdir] = contrib
+projects[drupar_multimedia][download][url] = "git@github.com:argob/drupar_multimedia.git"
+projects[drupar_multimedia][download][branch] = master
+projects[drupar_multimedia][subdir] = drupar
 
 
 ; LIBRARIES
