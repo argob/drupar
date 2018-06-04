@@ -3,8 +3,9 @@ Distribución de Drupal pensada para la creación de sitios pertenecientes a la 
 
 
 ## Requisitos
-.-
-
+1. curl
+2. mysql, apache2 y php
+3. drush
 
 ## 1. SSH KEY
 
@@ -14,7 +15,6 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 Copiamos la salida del cat y la pegamos en: [Profile Keys](https://github.com/settings/keys)  
-  
 Mas Ayuda en: [Generating an SSH Key](https://help.github.com/articles/generating-an-ssh-key/)
 
 
