@@ -231,7 +231,7 @@ projects[poncho][type] = theme
 projects[poncho][download][type] = git
 projects[poncho][download][url] = "git@github.com:argob/drupar_poncho.git"
 projects[poncho][download][branch] = master
-projects[poncho][subdir] = drupar
+projects[poncho][subdir] = contrib
 
 projects[drupar_inicio][type] = module
 projects[drupar_inicio][download][type] = git
