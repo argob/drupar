@@ -51,3 +51,8 @@ $databases = array (
 Cambiar los parametros por los necesarios.
 
 5. Ingresar en `localhost/drupar/user`
+
+
+## Mas info? Consultas?:
+
+drupar.slack.com
