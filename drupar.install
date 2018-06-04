@@ -1,0 +1,58 @@
+<?php
+
+/**
+ * Implements hook_install_tasks().
+ *
+ * Allows the profile to alter the site configuration form.
+ */
+
+function drupar_install_tasks(){
+
+  $tasks = array();
+
+  $tasks['habilitarTema'] = array(
+    'display_name' => t('Habilitar temas'),
+    'display' => TRUE,
+    'type' => 'normal',
+    'not null' => TRUE
+  );
+
+  $tasks['habilitarPaginas'] = array(
+    'display_name' => t('Habilitar páginas'),
+    'display' => TRUE,
+    'type' => 'normal',
+    'not null' => TRUE
+  );
+
+  return $tasks;
+}
+
+function habilitarTema(){
+
+  $enable = array(
+    'theme_default' => 'poncho',
+    'admin_theme' => 'adminimal',
+  );
+
+  theme_enable($enable);
+
+  foreach ($enable as $var => $theme) {
+    if (!is_numeric($var)) {
+      variable_set($var, $theme);
+    }
+  }
+
+  theme_disable(array('bartik'));
+}
+
+// Habilita Node Overview de Page Manager Existing Pages
+
+function habilitarPaginas(){
+  $pages = array("pm_existing_pages-node_overview", "node_view");
+  foreach ($pages as $item) {
+    $page = page_manager_get_page_cache($item);
+    $function = ctools_plugin_get_function($page->subtask, "enable callback"); 
+    $function($page, FALSE); 
+    menu_rebuild();
+  }
+}
